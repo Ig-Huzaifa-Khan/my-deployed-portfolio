@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Navigation from './components/Navigation'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import Hobbies from './components/Hobbies'
 import Contact from './components/Contact'
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
         return <Projects />
       case 'skills':
         return <Skills />
+      case 'hobbies':
+        return <Hobbies />
       case 'contact':
         return <Contact />
       default:
